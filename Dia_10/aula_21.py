@@ -5,7 +5,7 @@ senha = input("Digite a senha: ")
 
 senha_correta = "123456"
 
-if entrada == "E" or entrada == "e" and senha == senha_correta:
+if entrada == "E"  and senha == senha_correta:
     print("Você entrou no sistema.")
-elif entrada == "S" or entrada == "s":
+elif entrada == "S":
     print("Você saiu do sistema.")
